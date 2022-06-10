@@ -137,13 +137,14 @@ body {
 }
 /* Футер */
 
-.address {
+.location {
   color: var(--accent-secondary);
 
   /* Фон для белого текста */
   background-color: var(--secondary-color);
   font-weight: 400;
   font-size: 14px;
+  display: inline;
   line-height: 1.5;
 }
 
@@ -155,6 +156,10 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.address {
+  font-style: normal;
 }
 
 /* Портфолио */

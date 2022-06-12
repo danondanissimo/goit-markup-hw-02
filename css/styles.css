@@ -70,9 +70,12 @@ body {
 
 /* Герой */
 
+.hero {
+  background-color: var(--additional-background-color);
+}
+
 .hero-title {
   color: var(--accent-secondary);
-  background-color: var(--additional-background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -128,6 +131,7 @@ body {
 
 .feature-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -147,7 +151,6 @@ body {
 
 .staff-role {
   color: var(--secondary-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: Center;

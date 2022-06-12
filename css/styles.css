@@ -60,9 +60,7 @@ body {
 }
 
 .contacts:hover,
-.contacts:focus,
-.location.link:hover,
-.location.link:focus {
+.contacts:focus {
   color: var(--accent);
 }
 
@@ -174,10 +172,15 @@ body {
 .location.link {
   color: var(--accent-secondary);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .location.link:visited {
+  color: var(--accent-secondary);
+}
+
+.location.link:hover,
+.location.link:focus {
   color: var(--accent-secondary);
 }
 
@@ -216,6 +219,7 @@ body {
 }
 
 .project-title {
+  color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
